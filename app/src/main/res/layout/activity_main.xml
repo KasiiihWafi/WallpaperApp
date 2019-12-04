@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="5dp"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wallpaper Sistem "/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_wal1"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/hdsatu"/>
+
+                    <Button
+                        android:id="@+id/btn_wal2"
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/hddua"/>
+
+                    <Button
+                        android:id="@+id/btn_wal3"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/hdtiga"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_wal4"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/hdempat"/>
+
+                    <Button
+                        android:id="@+id/btn_wal5"
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/hdlima"/>
+
+                    <Button
+                        android:id="@+id/btn_wal6"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/hdenam"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_wal7"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/hdtujuh"/>
+
+                    <Button
+                        android:id="@+id/btn_wal8"
+                        android:layout_width="100dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/hddelapan"/>
+
+                    <Button
+                        android:id="@+id/btn_wal9"
+                        android:layout_width="100dp"
+                        android:layout_margin="3dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/hdsembilan"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

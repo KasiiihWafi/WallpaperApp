@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#4a4a4a"
+    android:id="@+id/theme_preview"
+    tools:context=".ThemeActivity">
+
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+
+        <Button
+            android:padding="20dp"
+            android:id="@+id/btn_save"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="Terapkan"
+            android:background="@drawable/button"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:padding="20dp"
+            android:background="@drawable/button"
+            android:id="@+id/btn_back"
+            android:text="Kembali"
+            android:layout_alignParentBottom="true"
+            android:layout_width="150dp"
+            android:layout_height="70dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
